@@ -16,7 +16,7 @@ Faz-se necessario ter privilegios de administrador ou permissões para instala e
 Caso queira poderá está utilizando o atom para criação dos arquivos ou poderá utilizar algum editor de texto do seu interesse, para criar os arquivos e salva-los com a extensão **yml**, foi utilizado o atom nesta atividade para facilitar a digitação de código e envio para o Github, irei deixar aqui também um link caso queira baixar e utilizar o mesmo.
 [Atom](https://atom.io/).
 
-## Documentação do WikiJS
+## Processo de implantação do WikiJS
 
 Consultar Documento para Criar Arquivo Docker-compose.
 [Documento WikiJS](https://docs.requarks.io/install/docker)
@@ -37,7 +37,7 @@ e aperte enter você vai entrar na pasta do projeto lembrando que esse caminho f
 
 Após entrar no caminho especificado digite dir e aperte o enter para ver se seu arquivo aparece.
 
-caso apareça agora é hora de verificar se o docker está rodando, caso não esteja execute o docker no windows para ele funcionar e podermos subir o conteiner, caso ja esteja funcionando o docker volte para o prompt no caminho especificado do projeto e digite **docker-compose up** este comando vai subir a imagem do postegres e do wiki juntamente com o conteiner.
+caso apareça agora é hora de verificar se o docker está rodando, caso não esteja execute o docker no windows para ele funcionar e podermos subir o conteiner, caso ja esteja funcionando o docker volte para o prompt no caminho especificado do projeto e digite **docker-compose up** este comando vai subir a imagem do postegres e do wiki juntamente com o conteiner, esse comando só vai funcionar se seu arquivo estiver com esses nomes e extensões caso contrario nada vai acontecer são eles: docker-compose.yml , docker-compose.yaml, compose.yml, compose.yaml.
 
 Acesse no navegador http://localhost:8080/ e terá acesso ao WikiJS e poderá finalizar o resto da instalação do mesmo.
 
