@@ -39,7 +39,7 @@ Após entrar no caminho especificado digite dir e aperte o enter para ver se seu
 
 caso apareça agora é hora de verificar se o docker está rodando, caso não esteja execute o docker no windows para ele funcionar e podermos subir o conteiner, caso ja esteja funcionando o docker volte para o prompt no caminho especificado do projeto e digite **docker-compose up** este comando vai subir a imagem do postegres e do wiki juntamente com o conteiner.
 
-Acesse localhost:8080 e terá acesso ao WikiJS e poderá finalizar o resto da instalação do mesmo.
+Acesse no navegador http://localhost:8080/ e terá acesso ao WikiJS e poderá finalizar o resto da instalação do mesmo.
 
 ## Utilizados
 
